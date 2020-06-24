@@ -4,8 +4,8 @@
   margin: 0;
 }
 
-html {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+html, body, p, li, a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {

@@ -11,7 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {background: #191970; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
@@ -19,7 +19,7 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #444;
+	color: black;
 }
 
 #cv {
@@ -31,7 +31,7 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 2px solid #cf8a05;
+	border-bottom: 2px solid #191970;
 	background: #ededed;
 }
 
@@ -81,11 +81,11 @@ p {
 
 #contactDetails ul li {
 	margin-bottom: 3px;
-	color: #444;
+	color: black;
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #444; 
+	color: #191970; 
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -95,7 +95,7 @@ p {
 }
 
 #contactDetails ul li a:hover { 
-	color: #cf8a05;
+	color: #191970;
 }
 
 
@@ -126,7 +126,7 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #cf8a05;
+	color: #191970;
 }
 
 .sectionContent h2 {
@@ -148,7 +148,7 @@ section:last-child {
 	column-count:3;
 	margin-bottom: 20px;
 	font-size: 1em;
-	color: #444;
+	color: black;
 }
 
 .keySkills ul li {

@@ -1,0 +1,24 @@
+/* site wide font */
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #acd4d1;
+}
+
+.navbar {
+  background-color: #3d444c !important;
+}
+
+body {
+  background-color: #748d89;
+  color: #3d444c !important;
+}
+
+h2 {
+  color: white;
+  background-image: url("https://cdn.dribbble.com/users/822246/screenshots/3178778/coding_line_seamless_pattern-01.jpg");
+  padding: 50px;
+}
+
+

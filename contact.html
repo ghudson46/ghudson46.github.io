@@ -18,7 +18,7 @@
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
      <!-- custom css -->
-     <link rel="stylesheet" type="text/css" href="custom.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
       <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   
@@ -60,83 +60,72 @@
   <main>
    
     <!-- form in which website guests can enter their name, email, state and zip code -->
-    <form class="needs-validation form-spacing" novalidate>
-      <div class="form-row">
-        <div class="col-md-6 mb-3">
-          <label for="validationCustom01">First name</label>
-          <input type="text" class="form-control" id="validationCustom01" value="" required>
-          <div class="valid-feedback">
-            Looks good!
+    <form id="contact-form" method="post" action="contact.php" role="form">
+
+      <div class="messages"></div>
+  
+      <div class="controls">
+  
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_name">First Name *</label>
+                      <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="First name is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_lastname">Last Name *</label>
+                      <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="" required="required" data-error="Last name is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-md-6 mb-3">
-          <label for="validationCustom02">Last name</label>
-          <input type="text" class="form-control" id="validationCustom02" value="" required>
-          <div class="valid-feedback">
-            Looks good!
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_email">Email *</label>
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="name@example.com" required="required" data-error="Valid email is required.">
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="form_need">Please specify your need *</label>
+                      <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                          <option value=""></option>
+                          <option value="Request quotation">Request quotation</option>
+                          <option value="Request order status">Request order status</option>
+                          <option value="Request copy of an invoice">Request copy of an invoice</option>
+                          <option value="Other">Other</option>
+                      </select>
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
           </div>
-        </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="form-group">
+                      <label for="form_message">Message *</label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <div class="col-md-12">
+                  <input type="submit" class="btn btn-success btn-send" value="Send message">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <p class="text-muted">
+                      <strong>*</strong> These fields are required. Contact form template by
+                      <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+              </div>
+          </div>
       </div>
-      <div class="form-row">
-        <div class="col-md-6 mb-3">
-          <label for="validationCustom03">Email Address</label>
-          <input type="text" class="form-control" id="validationCustom03" required>
-          <div class="invalid-feedback">
-            Please provide a valid email address.
-          </div>
-        </div>
-        <div class="col-md-3 mb-3">
-          <label for="validationCustom04">State</label>
-          <select class="custom-select" id="validationCustom04" required>
-            <option selected disabled value="">Choose...</option>
-            <option>...</option>
-          </select>
-          <div class="invalid-feedback">
-            Please select a valid state.
-          </div>
-        </div>
-        <div class="col-md-3 mb-3">
-          <label for="validationCustom05">Zip</label>
-          <input type="text" class="form-control" id="validationCustom05" required>
-          <div class="invalid-feedback">
-            Please provide a valid zip.
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-          <label class="form-check-label" for="invalidCheck">
-            Agree to terms and conditions
-          </label>
-          <div class="invalid-feedback">
-            You must agree before submitting.
-          </div>
-        </div>
-      </div>
-      <button class="btn btn-primary" type="submit">Submit form</button>
-    </form>
-    
-    <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function() {
-      'use strict';
-      window.addEventListener('load', function() {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('needs-validation');
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function(form) {
-          form.addEventListener('submit', function(event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-          }, false);
-        });
-      }, false);
-    })();
-    </script>
+  
+  </form>
 
 
   </main>

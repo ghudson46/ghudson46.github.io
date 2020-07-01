@@ -8,15 +8,18 @@
 
 }
 
+/* h2 header styling */
 h2 {
   text-align: center;
   font-weight: bold;
 }
 
+/* changes color of navbar */
 .navbar {
   background-color: #0e2433 !important;
 }
 
+/* changes color of the body and text */
 body {
   background-color: #0e2433;
   color: #f8f8ff;
@@ -31,6 +34,7 @@ body {
   font-weight: bold;
 }
 
+/* changes the color of unfocused links and the text in the footer */
 footer, a {
   color: #45b6fe;
 }
@@ -42,7 +46,7 @@ footer, a {
   align-items: center;
 }
 
-
+/* positioning and styling of grids */
 .col-md-4 {
   margin: 30px 10px;
   align-items: center;
@@ -50,38 +54,36 @@ footer, a {
   padding: 16px 0;
 }
 
+/* positions the paragraph for proper positioning */
 .p-position {
   margin-left: 50px;
   margin-top: 55px;
 }
 
+/* changes the size and position of the image on about.html */
 .about-img {
   height: 250px;
   width: 220px;
-  float: right;
   margin-top: 30px;
 }
 
+/* used to create a background/container for the about me content */
 .about-me {
   background-color: #1c4966;
 }
 
-.about1 {
-  backgrond-color: #1c4966;
-}
-
-.navcolor .navbar .navbar-expand-lg .navbar-light .bg-light {
-  color: #f8f8ff !important;
-}
-
+/* changes positioning of contact form on contact.html */
 #contact-form {
   margin: 0 80px;
 }
 
+/* changes position of button on contact page */
 .btn {
   margin-left: 500px;
 }
 
+/* changes position of footer */
 footer {
   margin-top: 100px;
 }
+

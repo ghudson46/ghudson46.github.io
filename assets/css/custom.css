@@ -16,18 +16,20 @@ h2 {
 
 /* changes color of navbar */
 .navbar {
-  background-color: #0e2433 !important;
+  background-color: #221f1f !important;
+  padding: 20px 0;
 }
 
 /* changes color of the body and text */
 body {
-  background-color: #0e2433;
-  color: #f8f8ff;
+  background-color: #242726;
+  color: #FBF9F8;
 }
 
 /* background image and accompanying text on index.html page */
 .bimg{
-  color: #45b6fe;
+  color: #FBF9F8;
+  text-shadow: 10px 10px black;
   background-image: url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
   padding: 200px;
   text-align: center;
@@ -36,7 +38,7 @@ body {
 
 /* changes the color of unfocused links and the text in the footer */
 footer, a {
-  color: #45b6fe;
+  color: #FBF9F8;
 }
 
 /* positioning the icons on the about.html */
@@ -47,11 +49,19 @@ footer, a {
 }
 
 /* positioning and styling of grids */
-.col-md-4 {
-  margin: 30px 10px;
-  align-items: center;
-  background-color: #1c4966;
-  padding: 16px 0;
+.col-md-3 {
+  background-color: #221f1f;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* positioning and styling of main grids on portfolio.html */
+.portfolio {
+  margin: 10px;
+  background-color: #2e3233;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
 }
 
 /* positions the paragraph for proper positioning */
@@ -69,7 +79,7 @@ footer, a {
 
 /* used to create a background/container for the about me content */
 .about-me {
-  background-color: #1c4966;
+  background-color: #;
 }
 
 /* changes positioning of contact form on contact.html */
@@ -79,11 +89,15 @@ footer, a {
 
 /* changes position of button on contact page */
 .btn {
-  margin-left: 500px;
+  margin: 0 auto;
 }
 
 /* changes position of footer */
 footer {
   margin-top: 100px;
+}
+
+.port-img {
+  padding-left: 40px;
 }
 

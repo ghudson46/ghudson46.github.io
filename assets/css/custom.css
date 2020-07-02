@@ -11,6 +11,10 @@
 h2 {
   text-align: center;
   font-weight: bold;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 150px;
+
 }
 
 /* changes color of navbar */
@@ -36,9 +40,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #FBF9F8;
   text-shadow: 10px 10px black;
   background-image: url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
-  padding: 200px;
   text-align: center;
   font-weight: bold;
+  height: 400px;
 }
 
 /* changes the color of unfocused links and the text in the footer */
@@ -113,13 +117,14 @@ footer {
   padding-left: 80px;
 }
 
+/* positioning for placeholder image in the portfolio */
 .port-img {
   padding-left: 30px;
   padding-top: 60px;
 }
 
 
-
+/* text styling for name on navbar */
 .name {
   font-family: 'Bangers', cursive;
   font-family: 'Krona One', sans-serif;
@@ -130,11 +135,13 @@ footer {
   line-height: 72px;
 }
 
+/* text styling for name on navbar */
 .white {
   color: #fbf9f8;
   font-size: 36px;
 }
 
+/* text styling for links on navbar */
 .nav-link {
   font-weight: bold;
   font-size: 24px;
@@ -173,6 +180,8 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .bimg {
-    font-size: 12px;
+    font-size: 24px;
   }
+
+
 }

@@ -55,9 +55,8 @@ footer, a {
 
 /* positioning and styling of grids */
 .col-md-3 {
-  background-color: #221f1f;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 

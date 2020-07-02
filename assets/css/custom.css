@@ -1,6 +1,5 @@
 /* site wide font */
 * {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   margin: 0;
@@ -22,9 +21,15 @@ h2 {
 
 /* changes color of the body and text */
 body {
+  font-family: 'Quicksand', sans-serif;
+ font-weight: 300;
   background-color: #242726;
   color: #FBF9F8;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+ }
 
 /* background image and accompanying text on index.html page */
 .bimg{
@@ -55,14 +60,16 @@ footer, a {
   padding-bottom: 30px;
 }
 
+
 /* positioning and styling of main grids on portfolio.html */
 .portfolio {
-  margin: 10px;
+  margin: 10px 30px;
   background-color: #2e3233;
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 10px;
 }
+
 
 /* positions the paragraph for proper positioning */
 .p-position {
@@ -98,6 +105,60 @@ footer {
 }
 
 .port-img {
-  padding-left: 40px;
+  padding-left: 30px;
+  padding-top: 60px;
 }
 
+
+
+.name {
+  font-family: 'Bangers', cursive;
+  font-family: 'Krona One', sans-serif;
+  font-family: 'Monoton', cursive;
+  font-size: 48px;
+  color: #3792cb !important;
+  text-shadow: 10px 10px black;
+  line-height: 72px;
+}
+
+.white {
+  color: #fbf9f8;
+  font-size: 36px;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* pseudo-classes */
+.nav-link:hover {
+  transform: scale(1.12);
+  color: white;
+}
+
+/* makes empty divs, used for spacing, invisible */
+.clear {
+  opacity: 0%;
+}
+
+
+/* changes for hover over name/link in nav bar */
+.name:hover {
+  transform: scale(1.12);
+  opacity: 60%;
+}
+
+/* changes for links in footer */
+a:hover {
+  color: #bada55;
+}
+
+
+/* responsive web design media queries */
+
+@media only screen and (max-width: 600px) {
+  .bimg {
+    font-size: 12px;
+  }
+}

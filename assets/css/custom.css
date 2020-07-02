@@ -53,6 +53,14 @@ footer, a {
   align-items: center;
 }
 
+/* resizes and colorizes the icons in the footer */
+
+.footer-icon {
+  height: 50px;
+  width: 50px;
+  filter: grayscale(100%);
+}
+
 /* positioning and styling of grids */
 .col-md-3 {
   padding-top: 30px;
@@ -101,6 +109,8 @@ footer, a {
 /* changes position of footer */
 footer {
   margin-top: 100px;
+  margin-bottom: 50px;
+  padding-left: 80px;
 }
 
 .port-img {
@@ -148,9 +158,14 @@ footer {
   opacity: 60%;
 }
 
-/* changes for links in footer */
+/* changes for links */
 a:hover {
   color: #bada55;
+}
+
+/* changes the icon/links in footer */
+.col-md-1:hover {
+  transform: scale(1.1);
 }
 
 

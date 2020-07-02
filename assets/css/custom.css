@@ -4,7 +4,6 @@
   line-height: 24px;
   margin: 0;
   padding: 0;
-
 }
 
 /* h2 header styling */
@@ -14,7 +13,10 @@ h2 {
   margin: 0 auto;
   width: 100%;
   padding-top: 150px;
+}
 
+p {
+  width: 120%;
 }
 
 /* changes color of navbar */
@@ -25,7 +27,7 @@ h2 {
 
 /* changes color of the body and text */
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'inherit', sans-serif;
  font-weight: 300;
   background-color: #242726;
   color: #FBF9F8;
@@ -54,7 +56,17 @@ footer, a {
 .icon-style {
   height: 50px;
   width: 50px;
-  align-items: center;
+  align-items: right;
+}
+
+/* positioning for the header for about.html */
+
+.about-spacing {
+  margin-top: -80px;
+}
+/* makes the text its attached to bold */
+.bold {
+  font-weight: bold;
 }
 
 /* resizes and colorizes the icons in the footer */
@@ -62,7 +74,7 @@ footer, a {
 .footer-icon {
   height: 50px;
   width: 50px;
-  filter: grayscale(100%);
+  filter: invert(100%);
 }
 
 /* positioning and styling of grids */
@@ -82,7 +94,7 @@ footer, a {
 }
 
 
-/* positions the paragraph for proper positioning */
+/* positions the paragraph */
 .p-position {
   margin-left: 50px;
   margin-top: 55px;
@@ -90,9 +102,9 @@ footer, a {
 
 /* changes the size and position of the image on about.html */
 .about-img {
-  height: 250px;
-  width: 220px;
-  margin-top: 30px;
+  height: 300px;
+  width: 350px;
+  margin-top: 60px;
 }
 
 /* used to create a background/container for the about me content */
@@ -173,6 +185,7 @@ a:hover {
 /* changes the icon/links in footer */
 .col-md-1:hover {
   transform: scale(1.1);
+  opacity: 80%;
 }
 
 
@@ -181,6 +194,10 @@ a:hover {
 @media only screen and (max-width: 600px) {
   .bimg {
     font-size: 24px;
+  }
+
+  .about-img {
+    float: right;
   }
 
 

@@ -64,14 +64,17 @@ footer, a {
 
 /* controls background and layout for resume.html */
 article {
-  background-color: #221f1f;
+  background-color: #2e3233;
   padding: 10px 0;
   max-width: 65%;
+  border-radius: 10px;
 }
 
 .resume-p {
+  padding-left: 20px;
+  background-color: #2e3233;
   max-width: 65%;
-  margin-left: 20px;
+  border-radius: 10px;
 }
 
 .resume-header {
@@ -90,16 +93,17 @@ article {
 }
 
 ul {
-  margin: 0 auto;
-  background-color: #221f1f;
+  margin: 8px auto;
+  background-color: #2e3233;
   padding: 10px 0;
   max-width: 65%;
+  border-radius: 10px;
 }
 
 /* positioning for the header for about.html */
 
 .about-spacing {
-  margin-top: -80px;
+  margin-top: 80px;
   margin-bottom: 40px;
 }
 /* makes the text its attached to bold */

@@ -243,5 +243,23 @@ a:hover {
   .col-md-6 {
     margin-top: 10px;
   }
+  
+  article {
+    min-width: 90%;
+    width: 90%;
+  }
+
+  ul {
+    min-width: 90%;
+    width: 90%;
+  }
+
+  .resume-p {
+    min-width: 90%;
+    width: 90%;
+  }
+
+
+
 
 }

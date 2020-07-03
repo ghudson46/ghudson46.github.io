@@ -15,6 +15,11 @@ h2 {
   padding-top: 150px;
 }
 
+h1 {
+  text-shadow: 5px 5px black;
+  text-align: center;
+}
+
 p {
   width: 120%;
 }
@@ -52,6 +57,29 @@ footer, a {
   color: #FBF9F8;
 }
 
+.port-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* controls background and layout for resume.html */
+article {
+  background-color: #221f1f;
+  padding: 10px 0;
+  max-width: 65%;
+}
+
+.resume-p {
+  max-width: 65%;
+  margin-left: 20px;
+}
+
+.resume-header {
+  font-size: 48px;
+  margin: 40px auto;
+  text-align: center;
+}
+
 /* positioning the icons on the about.html */
 .icon-style {
   height: 50px;
@@ -59,10 +87,20 @@ footer, a {
   align-items: right;
 }
 
+}
+
+ul {
+  margin: 0 auto;
+  background-color: #221f1f;
+  padding: 10px 0;
+  max-width: 65%;
+}
+
 /* positioning for the header for about.html */
 
 .about-spacing {
   margin-top: -80px;
+  margin-bottom: 40px;
 }
 /* makes the text its attached to bold */
 .bold {
@@ -72,8 +110,8 @@ footer, a {
 /* resizes and colorizes the icons in the footer */
 
 .footer-icon {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   filter: invert(100%);
 }
 
@@ -96,21 +134,19 @@ footer, a {
 
 /* positions the paragraph */
 .p-position {
-  margin-left: 50px;
-  margin-top: 55px;
+  max-width: 100%;
+  height: auto;
+  float: right;
 }
 
 /* changes the size and position of the image on about.html */
 .about-img {
-  height: 300px;
-  width: 350px;
-  margin-top: 60px;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+  float: right;
 }
 
-/* used to create a background/container for the about me content */
-.about-me {
-  background-color: #;
-}
 
 /* changes positioning of contact form on contact.html */
 #contact-form {
@@ -200,5 +236,8 @@ a:hover {
     float: right;
   }
 
+  .col-md-6 {
+    margin-top: 10px;
+  }
 
 }

@@ -5,48 +5,51 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="John Doe">
+  <meta name="description" content="home page">
+  <meta name="author" content="Garrett Hudson">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- title -->
-    <title>About Me</title>
+  <!-- title -->
+  <title>Garrett Hudson</title>
+    
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- site wide custom css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <!-- google font for full doc -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+    <!-- google font for name in navbar -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Krona+One&family=Monoton&display=swap" rel="stylesheet">
 
-     <!-- boostrap -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-     <!-- custom CSS -->
-     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
-     <!-- google font -->
-     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
-     <!-- google font for name in navbar -->
-     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Krona+One&family=Monoton&display=swap" rel="stylesheet">
-  
 </head>
 
 <body>
-    <header>
 
-     <!--navigation bar--> 
-     <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+  <header>
+    <!-- Navbar -->
+    <nav class="navcolor navbar navbar-expand-lg navbar-dark bg-light">
       <div class="container">
-        <a class="name navbar-brand" href="index.html" id="logo"><div class="white">Garrett</div> Hudson</a>
+        <a class="name navbar-brand active" href="index.html" id="logo"><div class="white">Garrett</div> Hudson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <!-- link to about.html -->
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About Me</a>
+              <a class="nav-link" href="about.html">About Me</a>
             </li>
+            <!-- link to portfolio.html -->
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
+            <!-- link to contact.html -->
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
+            <!-- link to resume.html -->
             <li class="nav-item">
               <a class="nav-link" href="resume.html">Resume</a>
             </li>
@@ -59,9 +62,9 @@
 
 <main>
   <!-- heading -->
-  <div class="container about-me">
+  <div class="container about-me about-background">
     <div class="row">
-    <div class="col-md-9">
+    <div class="col-md-4">
       <h1 class="bold about-spacing">About Me</h1>
     </div>
   </div>
@@ -81,43 +84,7 @@
     </div>
   </div>
   </div>
-
-  <!-- content boxes containing my scope of work, skills within that scope, and icons -->
-  <!-- <div class="container">
-
-    <div class="row">
-      <div class="col-md-4">
-        <img src="https://cdn3.iconfinder.com/data/icons/n-webmaster-icon-set/512/13-512.png" alt="designer icon" class="icon-style">
-        <h3>Design</h3>
-        <ul>
-          <li>Adobe Photoshop</li>
-          <li>Balsamiq Wireframes</li>
-        </ul>
-      </div>
-
-      <div class="col-md-4">
-        <img src="https://icon-library.com/images/frontend-icon/frontend-icon-26.jpg" alt="developer icon" class="icon-style">
-        <h3>Front-End</h3>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-        </ul>
-      </div>
-
-    
-      <div class="col-md-4">
-        <img src="https://cdn4.iconfinder.com/data/icons/web-and-seo-21/65/1010-512.png" alt="back end developer icon" class="icon-style">
-        <h3>Back-End</h3>
-        <ul>
-          <li>Coming Soon</li>
-          <li>Coming Soon</li>
-        </ul>
-      </div>
-
-    </div> -->
-
-  </div>
+ </div>
 
 </main>
 
@@ -125,38 +92,32 @@
 <footer>
   <div class="container-fluid footer">
     <div class="row my-row">
-
-      <div class="col-md-1">
-
-      </div>
-
+      <!-- empty column for spacing -->
+      <div class="col-md-1"> </div>
+      <!-- credit to editor -->
       <div class="col-md-6">
         all works &#169; Garrett Hudson 2020
       </div>
+      <!-- icon link for phone -->
       <div class="col-md-1">
         <a href="tel:9196066599" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/call-447-475007.png" alt="phone logo" class="footer-icon"></a>
-    </div>
-    
+      </div>
+      <!-- icon link for email -->
       <div class="col-md-1">
         <a href="mailto:garrett.hudson46@gmail.com" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-512/gmail-32-761667.png" alt="gmail logo" class="footer-icon"></a>
       </div>
-    
-    
+      <!-- icon link for github -->
       <div class="col-md-1">
         <a href="https://github.com/ghudson46" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt="github logo" class="footer-icon"></a>
       </div>
-    
-    
+      <!-- icon link for linkedin -->
       <div class="col-md-1">
         <a href="https://linkedin.com/in/garretthudson46" target="_blank"><img src="https://www.pngkit.com/png/full/8-85849_new-latest-linkedin-logo-linkedin-icon-png-black.png" alt="linked in logo" class="footer-icon"></a>
       </div>
-
-      <div class="col-md-1">
-
-      </div>
-    
+      <!-- empty column for spacing -->
+      <div class="col-md-1"></div>
   </div>
-</footer>  
+</footer>    
 
 <!-- jQuery CDN -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

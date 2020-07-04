@@ -1,5 +1,3 @@
-/* sitewide css */
-
 /* site wide font */
 * {
   font-size: 16px;
@@ -8,10 +6,22 @@
   padding: 0;
 }
 
-/* styles the h1 elements */
+/* h2 header styling */
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 150px;
+}
+
 h1 {
   text-shadow: 5px 5px black;
   text-align: center;
+}
+
+p {
+  width: 120%;
 }
 
 /* changes color of navbar */
@@ -19,6 +29,143 @@ h1 {
   background-color: #221f1f !important;
   padding: 20px 0;
 }
+
+/* changes color of the body and text */
+body {
+  font-family: 'inherit', sans-serif;
+ font-weight: 300;
+  background-color: #242726;
+  color: #FBF9F8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+ }
+
+/* background image and accompanying text on index.html page */
+.bimg{
+  color: #FBF9F8;
+  text-shadow: 10px 10px black;
+  background-image: url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
+  text-align: center;
+  font-weight: bold;
+  height: 400px;
+}
+
+/* changes the color of unfocused links and the text in the footer */
+footer, a {
+  color: #FBF9F8;
+}
+
+.port-header {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* controls background and layout for resume.html */
+article {
+  background-color: #2e3233;
+  padding: 10px 0;
+  max-width: 65%;
+  border-radius: 10px;
+}
+
+.resume-p {
+  padding-left: 20px;
+  background-color: #2e3233;
+  max-width: 65%;
+  border-radius: 10px;
+}
+
+.resume-header {
+  font-size: 48px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* positioning the icons on the about.html */
+.icon-style {
+  height: 50px;
+  width: 50px;
+  align-items: right;
+}
+
+}
+
+ul {
+  margin: 8px auto;
+  background-color: #2e3233;
+  padding: 10px 0;
+  max-width: 65%;
+  border-radius: 10px;
+}
+
+/* positioning for the header for about.html */
+
+.about-spacing {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+/* makes the text its attached to bold */
+.bold {
+  font-weight: bold;
+}
+
+/* resizes and colorizes the icons in the footer */
+
+.footer-icon {
+  height: 30px;
+  width: 30px;
+  filter: invert(100%);
+}
+
+/* positioning and styling of grids */
+.col-md-3 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+
+/* positions the paragraph */
+.p-position {
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+/* changes the size and position of the image on about.html */
+.about-img {
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+  float: right;
+}
+
+
+/* changes positioning of contact form on contact.html */
+#contact-form {
+  margin: 0 80px;
+}
+
+/* changes position of button on contact page */
+.btn {
+  margin: 0 auto;
+}
+
+/* changes position of footer */
+footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-left: 80px;
+}
+
+/* positioning for placeholder image in the portfolio */
+.port-img {
+  padding-left: 90px;
+  padding-top: 60px;
+}
+
 
 /* text styling for name on navbar */
 .name {
@@ -37,43 +184,6 @@ h1 {
   font-size: 36px;
 }
 
-/* changes color of the body and text */
-body {
-  font-family: 'inherit', sans-serif;
- font-weight: 300;
-  background-color: #242726;
-  color: #FBF9F8;
-}
-
-/* changes the weight of the headings */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
- }
-
- /* makes the text its attached to bold */
-.bold {
-  font-weight: bold;
-}
-
-/* resizes and colorizes the icons in the footer */
-.footer-icon {
-  height: 30px;
-  width: 30px;
-  filter: invert(100%);
-}
-
-/* positioning and styling of grids */
-.col-md-3 {
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-
-/* changes position of footer */
-footer {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  padding-left: 80px;
-}
 
 /* text styling for links on navbar */
 .nav-link {
@@ -92,10 +202,16 @@ footer {
   opacity: 0%;
 }
 
+
 /* changes for hover over name/link in nav bar */
 .name:hover {
   transform: scale(1.12);
   opacity: 60%;
+}
+
+/* changes for links */
+a:hover {
+  color: #bada55;
 }
 
 /* changes the icon/links in footer */
@@ -105,130 +221,8 @@ footer {
 }
 
 
-/* index.html css */
-
-/* h2 header styling */
-h2 {
-  text-align: center;
-  font-weight: bold;
-  margin: 0 auto;
-  width: 100%;
-  padding-top: 150px;
-}
-
-/* background image and accompanying text on index.html page */
-.bimg{
-  color: #FBF9F8;
-  text-shadow: 10px 10px black;
-  background-image: url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
-  text-align: center;
-  font-weight: bold;
-  height: 400px;
-}
-
-
-/* about.html css */
-
-/* positions the paragraph */
-.p-position {
-  max-width: 100%;
-  height: auto;
-  float: right;
-}
-
-/* styles the paragraph on about.html */
-p {
-  width: 120%;
-}
-
-/* positioning for the header for about.html */
-.about-spacing {
-  margin-top: 80px;
-  margin-bottom: 40px;
-}
-
-/* changes the size and position of the image on about.html */
-.about-img {
-  max-width: 100%;
-  min-width: 100%;
-  height: auto;
-  float: right;
-}
-
-
-/* portfolio.html css */
-
-/* positioning and styling of main grids on portfolio.html */
-.portfolio {
-  margin: 10px 30px;
-  background-color: #2e3233;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-radius: 10px;
-}
-
-/* positions the header for portfolio.html */
-.port-header {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-/* positioning for placeholder image in the portfolio */
-.port-img {
-  padding-left: 30px;
-  padding-top: 60px;
-}
-
-
-/* contact.html css */
-
-/* changes positioning of contact form on contact.html */
-#contact-form {
-  margin: 0 80px;
-}
-
-/* changes position of button on contact page */
-.btn {
-  margin: 0 auto;
-}
-
-
-/* resume.html css */
-
-/* controls background and layout for resume.html */
-article {
-  background-color: #2e3233;
-  padding: 10px 0;
-  max-width: 65%;
-  border-radius: 10px;
-}
-
-/* postioning and styling for resume paragraphs */
-.resume-p {
-  padding-left: 20px;
-  background-color: #2e3233;
-  max-width: 65%;
-  border-radius: 10px;
-}
-
-/* positioning and styling for resume header */
-.resume-header {
-  font-size: 48px;
-  margin: 40px auto;
-  text-align: center;
-}
-
-/* style and positioining of unordered list on resume.html */
-ul {
-  margin: 8px auto;
-  background-color: #2e3233;
-  padding: 10px 0;
-  max-width: 65%;
-  border-radius: 10px;
-}
-
-
 /* responsive web design media queries */
+
 @media only screen and (max-width: 600px) {
   .bimg {
     font-size: 24px;
@@ -256,5 +250,8 @@ ul {
     min-width: 90%;
     width: 90%;
   }
+
+
+
 
 }

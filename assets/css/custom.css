@@ -347,4 +347,10 @@ a:hover {
     align-content: center;
     margin-left: 55px;
   }
+
+  .mobile-footer {
+    width: 100%;
+    height: 100%;
+  }
 }
+

@@ -235,10 +235,6 @@ footer {
   margin: 100px 0 100px 0;
 }
 
-.footer {
-  flex-shrink: 0; 
-}
-
 /* positioning for placeholder image in the portfolio */
 .port-img {
   padding: 60px 0 0 90px;
@@ -360,6 +356,9 @@ a:hover {
     margin-left: 60px;
   }
  
+  .navbar-nav {
+    margin-right: 50px;
+  }
 
 
 }

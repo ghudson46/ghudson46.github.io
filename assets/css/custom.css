@@ -297,6 +297,13 @@ a:hover {
     font-size: 24px;
   }
 
+  .port-img {
+    margin-left: 10px;
+  }
+
+  .about-img {
+    margin-left: 30px;
+  }
 
   .col-md-6 {
     margin-top: 10px;

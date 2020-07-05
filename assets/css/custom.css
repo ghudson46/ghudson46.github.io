@@ -230,12 +230,13 @@ ul {
 
 /* changes position of footer */
 footer {
-  position: static;
-  left: 0;
-  bottom: 0;
   width: 100%;
   height: 40%;
   margin: 100px 0 100px 0;
+}
+
+.footer {
+  flex-shrink: 0; 
 }
 
 /* positioning for placeholder image in the portfolio */
@@ -358,16 +359,8 @@ a:hover {
   .nav-link {
     margin-left: 60px;
   }
-
- .navbar-brand {
-   font-size: 12px;
- }
  
- .nav-item {
-  
-  display: flex;
-  flex-direction: row;
- }
+
 
 }
 

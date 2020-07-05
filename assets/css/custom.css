@@ -317,7 +317,7 @@ a:hover {
   }
 
   .about-img {
-    float: right;
+    margin-left: 50px;
   }
 
   .col-md-6 {

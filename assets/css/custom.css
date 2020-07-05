@@ -313,11 +313,11 @@ a:hover {
   }
 
   .port-img {
-    margin-right: 100px;
+    margin-right: 80px;
   }
 
   .about-img {
-    margin-left: 50px;
+    float: right;
   }
 
   .col-md-6 {

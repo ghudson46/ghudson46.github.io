@@ -336,9 +336,11 @@ a:hover {
   .navbar-toggler {
     margin-right: 20px;
   }
-
+  
   footer {
-    margin-bottom: 300px;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
   }
 
 }

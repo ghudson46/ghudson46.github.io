@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
 /* h2 header styling */
 h2 {
   text-align: center;
@@ -24,6 +28,17 @@ p {
   width: 120%;
 }
 
+a {
+  color: lightslategray;
+}
+
+footer {
+  background-color: #221f1f !important;
+  color: white;
+  padding: 50px 0 50px 0;
+  margin-top: auto;
+  height: 100%;  
+}
 /* changes color of navbar */
 .navbar {
   background-color: #221f1f !important;
@@ -33,10 +48,15 @@ p {
 /* changes color of the body and text */
 body {
   font-family: 'inherit', sans-serif;
- font-weight: 300;
+  font-weight: 300;
   background-color: #242726;
+  background-image: url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
   color: #FBF9F8;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
@@ -45,16 +65,27 @@ h1, h2, h3, h4, h5, h6 {
 /* background image and accompanying text on index.html page */
 .bimg{
   color: #FBF9F8;
-  text-shadow: 10px 10px black;
-  background-image: url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
+  text-shadow: 10px 5px black;
   text-align: center;
+  font-size: 48px;
   font-weight: bold;
-  height: 400px;
+  height: 350px;
+  width: 100%; 
+  background-position: bottom;
 }
 
-/* changes the color of unfocused links and the text in the footer */
-footer, a {
-  color: #FBF9F8;
+.resume-img {
+  height: 200px;
+  width: 130px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.h2-position {
+  padding-top: 170px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .port-header {
@@ -103,8 +134,8 @@ ul {
 /* positioning for the header for about.html */
 
 .about-spacing {
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin: 50px 0 0 0;
+  
 }
 /* makes the text its attached to bold */
 .bold {
@@ -125,21 +156,50 @@ ul {
   padding-bottom: 10px;
 }
 
-
-
 /* positions the paragraph */
 .p-position {
-  max-width: 100%;
+  width: 120%;
   height: auto;
-  float: right;
+  background-color: #2e3233;
+  padding: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.horiseon {
+  height: 300px;
+  width: 200px;
+  min-width: 200px;
+  position: relative;
+  display: inline-block;
+}
+
+.porfolio-title {
+  font-weight: bold;
+  margin-bottom: 50px;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  top: 70%;
+  background-color: #221f1f;
+  color: #3792cb;
+  text-align: center;
+  width: 14.8vw;
+  min-width: 200px;
+}
+
+.shift {
+  margin-right: 100px;
+  margin-bottom: 50px;
 }
 
 /* changes the size and position of the image on about.html */
 .about-img {
-  max-width: 100%;
-  min-width: 100%;
-  height: auto;
+  margin: 30px 10px 10px 10px;
+  height: 300px;
+  width: 250px;
   float: right;
+  
 }
 
 
@@ -174,7 +234,7 @@ footer {
   font-family: 'Monoton', cursive;
   font-size: 48px;
   color: #3792cb !important;
-  text-shadow: 10px 10px black;
+  text-shadow: 10px 5px black;
   line-height: 72px;
 }
 
@@ -209,9 +269,8 @@ footer {
   opacity: 60%;
 }
 
-/* changes for links */
 a:hover {
-  color: #bada55;
+  color: lightslategray;
 }
 
 /* changes the icon/links in footer */
@@ -220,6 +279,11 @@ a:hover {
   opacity: 80%;
 }
 
+.about-img:active {
+  transform: scale(1.25);
+  margin-right: 20px;
+  margin-top: 10px;
+}
 
 /* responsive web design media queries */
 
@@ -251,7 +315,27 @@ a:hover {
     width: 90%;
   }
 
+  .about-spacing {
+    margin-right: 60px;
+  }
 
+  .mobile-response {
+    margin-bottom: 30px;
+    margin-left: 60px;
 
+  }
+
+  .col-md-1 {
+    margin-bottom: 30px;
+    margin-left: 60px;
+  }
+
+  .navbar-brand {
+    margin-left: 15px;
+  }
+
+  .navbar-toggler {
+    margin-right: 20px;
+  }
 
 }

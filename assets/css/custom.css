@@ -354,3 +354,141 @@ a:hover {
   }
 }
 
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+      .bimg {
+        font-size: 24px;
+      }
+    
+      .about-img {
+        float: right;
+      }
+    
+      .col-md-6 {
+        margin-top: 10px;
+      }
+      
+      article {
+        min-width: 90%;
+        width: 90%;
+      }
+    
+      ul {
+        min-width: 90%;
+        width: 90%;
+      }
+    
+      .resume-p {
+        min-width: 90%;
+        width: 90%;
+      }
+    
+      .about-spacing {
+        margin-right: 60px;
+      }
+    
+      .mobile-response {
+        margin-bottom: 30px;
+        margin-left: 60px;
+    
+      }
+    
+      .col-md-1 {
+        margin-bottom: 30px;
+        margin-left: 60px;
+      }
+    
+      .navbar-brand {
+        margin-left: 15px;
+      }
+    
+      .navbar-toggler {
+        margin-right: 20px;
+      }
+    
+      .port-img {
+        align-content: center;
+        margin-left: 55px;
+      }
+    
+      .mobile-footer {
+        width: 828px;
+        height: 300px;
+      }
+
+
+    }
+
+    @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+      .bimg {
+        font-size: 24px;
+      }
+    
+      .about-img {
+        float: right;
+      }
+    
+      .col-md-6 {
+        margin-top: 10px;
+      }
+      
+      article {
+        min-width: 90%;
+        width: 90%;
+      }
+    
+      ul {
+        min-width: 90%;
+        width: 90%;
+      }
+    
+      .resume-p {
+        min-width: 90%;
+        width: 90%;
+      }
+    
+      .about-spacing {
+        margin-right: 60px;
+      }
+    
+      .mobile-response {
+        margin-bottom: 30px;
+        margin-left: 60px;
+    
+      }
+    
+      .col-md-1 {
+        margin-bottom: 30px;
+        margin-left: 60px;
+      }
+    
+      .navbar-brand {
+        margin-left: 15px;
+      }
+    
+      .navbar-toggler {
+        margin-right: 20px;
+      }
+    
+      .port-img {
+        align-content: center;
+        margin-left: 55px;
+      }
+    
+      .mobile-footer {
+        width: 828px;
+        height: 300px;
+      }
+
+
+
+
+
+    }

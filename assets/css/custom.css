@@ -345,5 +345,12 @@ a:hover {
     margin-right: 20px;
   }
 
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
 }
 

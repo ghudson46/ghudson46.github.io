@@ -298,7 +298,7 @@ a:hover {
   }
 
   .about-img {
-    float: right;
+    margin-left;
   }
 
   .col-md-6 {
@@ -340,7 +340,6 @@ a:hover {
   }
 
   .port-img {
-    align-content: center;
     margin-left: 55px;
   }
 }

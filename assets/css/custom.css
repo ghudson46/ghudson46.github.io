@@ -52,7 +52,6 @@ body {
   background-color: #242726;
   background-image: url("https://img.freepik.com/free-vector/blue-cyber-future-technology-concept-background_42077-488.jpg?size=626&ext=jpg");
   color: #FBF9F8;
-  min-height: 100%;
   display: flex;
   flex-direction: column;
 }

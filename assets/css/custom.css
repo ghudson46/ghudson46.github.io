@@ -10,6 +10,10 @@ html, body {
   height: 100%;
   margin: 0;
 }
+
+.background {
+  background-color: #221f1f;
+}
 /* h2 header styling */
 h2 {
   text-align: center;

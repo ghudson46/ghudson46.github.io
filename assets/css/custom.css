@@ -298,7 +298,8 @@ a:hover {
   }
 
   .about-img {
-    margin-left: 50px;
+    display: grid;
+    justify-content: center;
   }
 
   .col-md-6 {
@@ -340,7 +341,8 @@ a:hover {
   }
 
   .port-img {
-    margin-left: 55px;
+    display: grid;
+    justify-content: center;
   }
 }
 

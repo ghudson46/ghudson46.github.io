@@ -339,7 +339,7 @@ a:hover {
   }
 
   footer {
-    height: 100%;
+    margin-bottom: 300px;
   }
 
 }

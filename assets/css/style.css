@@ -1,4 +1,5 @@
-/* site wide font */
+/* html elements */
+
 * {
   font-size: 16px;
   line-height: 24px;
@@ -11,12 +12,10 @@ html, body {
   margin: 0;
 }
 
-/* h2 header styling */
 h1 {
   text-shadow: 5px 5px black;
   text-align: center;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
@@ -28,7 +27,8 @@ h2 {
   margin: 0 auto;
   width: 100%;
   padding-top: 150px;
-}/* changes color of the body and text */
+}
+
 body {
   font-family: 'inherit', sans-serif;
   font-weight: 300;
@@ -39,7 +39,6 @@ body {
   flex-direction: column;
 }
 
-/* controls background and layout for resume.html */
 article {
   position: relative;
   left: 2%;
@@ -53,13 +52,22 @@ form {
   padding-top: 50px;
 }
 
-
 p {
   width: 120%;
 }
 
 a {
   color: lightslategray;
+}
+
+ul {
+  position: relative;
+  left: 10px;
+  margin: 8px 0px 8px 20px;
+  background-color: #221f1f;
+  padding: 10px 0px 10px 10px;
+  max-width: 65%;
+  border-radius: 10px;
 }
 
 footer {
@@ -76,14 +84,7 @@ footer {
 }
 
 
-.background {
-  background-color: #221f1f;
-}
-
-.nav-item {
-  display: inline;
-  margin: 5px 5px 5px 5px;
-}
+/* classes */
 
 /* changes color of navbar */
 .navbar {
@@ -91,24 +92,32 @@ footer {
   padding: 20px 0;
 }
 
-/* background image and accompanying text on index.html page */
-.bimg{
-  color: #FBF9F8;
-  text-shadow: 10px 5px black;
-  text-align: center;
+/* text styling for name on navbar */
+.name {
+  font-family: 'Bangers', cursive;
+  font-family: 'Krona One', sans-serif;
+  font-family: 'Monoton', cursive;
   font-size: 48px;
-  font-weight: bold;
-  height: 380px;;
-  width: 100%; 
-  background-position: bottom;
+  color: #3792cb !important;
+  text-shadow: 10px 5px black;
+  line-height: 72px;
 }
 
-.resume-img {
-  height: 200px;
-  width: 130px;
-  border-radius: 50px;
-  display: block;
-  margin: 0 auto;
+/* text styling for name on navbar */
+.white {
+  color: #fbf9f8;
+  font-size: 36px;
+}
+
+/* text styling for links on navbar */
+.nav-link {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-item {
+  display: inline;
+  margin: 5px 5px 5px 5px;
 }
 
 .h2-position {
@@ -119,69 +128,30 @@ footer {
   margin: 30px 0 30px 0;
 }
 
-.resume-p {
-  position: relative;
-  left: 2%;
-  padding-left: 20px;
-  background-color: #221f1f;
-  max-width: 65%;
-  border-radius: 10px;
-}
-
-.footer-item {
-  display: flex;
-  flex-direction: row;
-  float: right;
-}
-
 .resume-header {
   font-size: 48px;
   margin: 40px auto;
   text-align: center;
 }
 
-/* positioning the icons on the about.html */
-.icon-style {
-  height: 50px;
-  width: 50px;
-  align-items: right;
-}
-
-}
-
-ul {
-  position: relative;
-  left: 10px;
-  margin: 8px 0px 8px 0px;
-  background-color: #221f1f;
-  padding: 10px 0;
-  max-width: 65%;
-  border-radius: 10px;
-}
-
-/* positioning for the header for about.html */
-
 .about-spacing {
   margin: 50px 0 0 0;
-  
 }
-/* makes the text its attached to bold */
-.bold {
+
+.background {
+  background-color: #221f1f;
+}
+
+/* background image and accompanying text on index.html page */
+.bimg{
+  color: #FBF9F8;
+  text-shadow: 10px 5px black;
+  text-align: center;
+  font-size: 48px;
   font-weight: bold;
-}
-
-/* resizes and colorizes the icons in the footer */
-
-.footer-icon {
-  height: 30px;
-  width: 30px;
-  filter: invert(100%);
-  margin: 10px 10px 10px 10px;
-}
-
-/* positioning and styling of grids */
-.col-md-3 {
-  padding: 30px 0 10px 0;
+  height: 380px;
+  width: 100%; 
+  background-position: bottom;
 }
 
 /* positions the paragraph */
@@ -193,6 +163,33 @@ ul {
   border-radius: 10px;
   margin-left: 20px;
 }
+
+.resume-img {
+  height: 200px;
+  width: 130px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.resume-p {
+  position: relative;
+  left: 2%;
+  padding-left: 20px;
+  background-color: #221f1f;
+  max-width: 65%;
+  border-radius: 10px;
+}
+
+
+/* changes the size and position of the image on about.html */
+.about-img {
+  margin: 30px 10px 10px 10px;
+  height: 300px;
+  width: 250px;
+  float: right;
+}
+
 
 .horiseon {
   height: 300px;
@@ -216,22 +213,9 @@ ul {
   min-width: 200px;
 }
 
-.shift {
-  margin: 0 100px 50px 0;
-}
-
-/* changes the size and position of the image on about.html */
-.about-img {
-  margin: 30px 10px 10px 10px;
-  height: 300px;
-  width: 250px;
-  float: right;
-}
-
-
-/* changes positioning of contact form on contact.html */
-#contact-form {
-  margin: 0 80px;
+/* positioning for placeholder image in the portfolio */
+.port-img {
+  padding: 60px 0 0 90px;
 }
 
 /* changes position of button on contact page */
@@ -239,41 +223,32 @@ ul {
   margin: 0 auto;
 }
 
-/* positioning for placeholder image in the portfolio */
-.port-img {
-  padding: 60px 0 0 90px;
+/* positioning and styling of grids */
+.col-md-3 {
+  padding: 30px 0 10px 0;
 }
 
-
-/* text styling for name on navbar */
-.name {
-  font-family: 'Bangers', cursive;
-  font-family: 'Krona One', sans-serif;
-  font-family: 'Monoton', cursive;
-  font-size: 48px;
-  color: #3792cb !important;
-  text-shadow: 10px 5px black;
-  line-height: 72px;
+.footer-item {
+  display: flex;
+  flex-direction: row;
+  float: right;
 }
 
-/* text styling for name on navbar */
-.white {
-  color: #fbf9f8;
-  font-size: 36px;
+/* resizes and colorizes the icons in the footer */
+.footer-icon {
+  height: 30px;
+  width: 30px;
+  filter: invert(100%);
+  margin: 10px 10px 10px 10px;
 }
 
-
-/* text styling for links on navbar */
-.nav-link {
+/* makes the text its attached to bold */
+.bold {
   font-weight: bold;
-  font-size: 24px;
 }
 
-
-/* pseudo-classes */
-.nav-link:hover {
-  transform: scale(1.12);
-  color: white;
+.shift {
+  margin: 0 100px 50px 0;
 }
 
 /* makes empty divs, used for spacing, invisible */
@@ -282,10 +257,24 @@ ul {
 }
 
 
+/* Ids */
+
+/* changes positioning of contact form on contact.html */
+#contact-form {
+  margin: 0 80px;
+}
+
+/* pseudo classes */
+
 /* changes for hover over name/link in nav bar */
 .name:hover {
   transform: scale(1.12);
   opacity: 60%;
+}
+
+.nav-link:hover {
+  transform: scale(1.12);
+  color: white;
 }
 
 a:hover {
@@ -304,7 +293,8 @@ a:hover {
   margin-top: 10px;
 }
 
-/* responsive web design media queries */
+/* media query */
+
 @media only screen and (max-width: 600px) {
 
   .bimg {
@@ -327,7 +317,6 @@ a:hover {
     min-width: 90%;
     width: 90%;
   }
-
 
   .resume-p {
     min-width: 90%;
@@ -370,4 +359,3 @@ a:hover {
   }
 
 }
-

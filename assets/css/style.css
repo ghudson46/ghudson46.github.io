@@ -199,14 +199,36 @@ footer {
   display: inline-block;
 }
 
-.porfolio-title {
+
+
+.port-project {
+  background-color: #FBF9F8;
+  height: 300px;
+  width: 200px;
+  margin: 70px 0px 0px 80px;
+}
+
+.password-title {
+  font-weight: bold;
+  position: absolute;
+  z-index: 999;
+  margin: 0 0 30px 80px;
+  top: 70%;
+  background-color: rgba(34,31,31, 0.9);
+  color: #3792cb;
+  text-align: center;
+  width: 14.8vw;
+  min-width: 200px;
+}
+
+.horiseon-title {
   font-weight: bold;
   margin-bottom: 50px;
   position: absolute;
   z-index: 999;
   margin: 0 auto;
   top: 70%;
-  background-color: #221f1f;
+  background-color: rgba(34,31,31, 0.9);
   color: #3792cb;
   text-align: center;
   width: 14.8vw;

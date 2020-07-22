@@ -232,7 +232,26 @@ footer {
   color: #3792cb;
   text-align: center;
   width: 14.8vw;
+  min-width:200px;
+}
+
+.star-wars-title {
+  font-weight: bold;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 999;
+  top: 55%;
+  background-color: rgba(34,31,31, 0.9);
+  color: #3792cb;
+  text-align: center;
+  width: 14.8vw;
   min-width: 200px;
+}
+
+.star-wars-img {
+height: 300px;
+width: 200px;
+margin: 0 50px 50px 0;
 }
 
 /* positioning for placeholder image in the portfolio */

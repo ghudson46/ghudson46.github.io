@@ -254,6 +254,11 @@ width: 200px;
 margin: 0 50px 50px 0;
 }
 
+.weather-img {
+  height: 300px;
+  width: 200px;
+}
+
 /* positioning for placeholder image in the portfolio */
 .port-img {
   padding: 60px 0 0 90px;

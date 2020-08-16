@@ -12,7 +12,7 @@ CSS
 Bootstrap
 
 ## images
-![landing page] (assets/img/Screenshot (70).png)
+![landing page] (https://github.com/ghudson46/ghudson46.github.io/master/landing.png)
 ![about me page] (assets/img/Screenshot (71).png)
 ![portfolio page] (assets/img/Screenshot (72).png)
 ![contact page] (assets/img/Screenshot (73).png)

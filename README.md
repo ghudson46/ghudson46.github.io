@@ -12,11 +12,11 @@ CSS
 Bootstrap
 
 ## images
-![landing page] (assets/img/Screenshot (70).png)
-![about me page] (assets/img/Screenshot (71).png)
-![portfolio page] (assets/img/Screenshot (72).png)
-![contact page] (assets/img/Screenshot (73).png)
-![resume page] (assets/img/Screenshot (74).png)
+![landing page] (assets/img/landing.png)
+![about me page] (assets/img/about.png)
+![portfolio page] (assets/img/portfolio.png)
+![contact page] (assets/img/contact.png)
+![resume page] (assets/img/resume.png)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 

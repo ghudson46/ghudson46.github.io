@@ -437,17 +437,17 @@ a:hover {
     font-size: 24px;
   }
 
-  /* .git-title {
+  .git-title {
     left: 22%;
-  } */
+  }
 
   .port-img {
     margin-right: 80px;
   }
 
-  .about-img {
+  .about-img { 
    position: relative;
-   left: 150px;
+   left: 50px;
    
   }
 

@@ -12,7 +12,7 @@ CSS
 Bootstrap
 
 ## images
-![landing page] (assets/img/landing.png)
+![landing page] <img src="assets/img/landing.png">
 ![about me page] (assets/img/about.png)
 ![portfolio page] (assets/img/portfolio.png)
 ![contact page] (assets/img/contact.png)

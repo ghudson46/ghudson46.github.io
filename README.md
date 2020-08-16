@@ -12,11 +12,11 @@ CSS
 Bootstrap
 
 ## images
-![landing page] <img src="assets/img/landing.png">
-![about me page] (assets/img/about.png)
-![portfolio page] (assets/img/portfolio.png)
-![contact page] (assets/img/contact.png)
-![resume page] (assets/img/resume.png)
+Landing page <img src="assets/img/landing.png">
+About me <img src="assets/img/about.png">
+Portfolio <img src="assets/img/portfolio.png">
+Contact <img src="assets/img/contact.png">
+Resume <img src="assets/img/resume.png">
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 

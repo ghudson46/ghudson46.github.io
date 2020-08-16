@@ -447,8 +447,8 @@ a:hover {
 
   .about-img {
    position: relative;
-   left: 0;
-   right: 0;
+   left: 150px;
+   
   }
 
   .col-md-6 {

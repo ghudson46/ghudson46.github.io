@@ -288,6 +288,15 @@ margin: 0 50px 50px 0;
   margin: 10px 10px 10px 10px;
 }
 
+.resumeBtn {
+  width: 200px;
+  margin-top: 20px;
+  margin-left: calc(50% - 100px);
+  background-color: #221f1f;
+  color: #3792cb;
+  border-radius: 10px;
+}
+
 .container {
  float: left;
 }
@@ -340,6 +349,10 @@ a:hover {
   transform: scale(1.25);
   margin-right: 20px;
   margin-top: 10px;
+}
+
+.resumeBtn:hover {
+  transform: scale(1.05);
 }
 
 /* media query */

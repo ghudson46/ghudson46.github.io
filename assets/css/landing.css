@@ -91,6 +91,16 @@ footer {
   margin-top: 80px;
 }
 
+button {
+  background: #3792cb;
+  padding: 5px 10px 5px 10px;
+  position: relative;
+  top: 0;
+  left: 200px;
+  color: #fbf9f8;
+  border: 1px solid #221f1f;
+  border-radius: 5px;
+}
 
 /* classes */
 
@@ -422,6 +432,10 @@ margin: 0 50px 50px 0;
   opacity: 60%;
 }
 
+button:hover {
+  transform: scale(1.1);
+}
+
 .nav-link:hover {
   transform: scale(1.12);
   color: white;
@@ -461,14 +475,9 @@ a:hover {
     width: 420px;
   }
 
-  /* .who {
-    margin-left: -30px;
+  .navbar {
+    width: 100%;
   }
-
-  .job {
-    margin-left: -px;
-  } */
-
   .landing-title {
     position: absolute;
     top: 55px;

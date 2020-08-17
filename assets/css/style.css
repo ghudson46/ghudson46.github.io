@@ -438,7 +438,8 @@ a:hover {
   }
 
   .git-title {
-    left: 22%;
+    width: 200px;
+    left: 90px;
   }
 
   .port-img {

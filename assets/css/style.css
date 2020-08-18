@@ -73,11 +73,13 @@ ul {
   border-radius: 10px;
 }
 
+
+
 footer {
   background-color: #221f1f !important;
   color: white;
   font-size: 24px;
-  padding: 40px 0 156px 0;
+  padding: 10px 0 80px 0;
   position: static;
   bottom: 0;
   width: 100%;
@@ -102,7 +104,7 @@ footer {
   font-family: 'Monoton', cursive;
   font-size: 48px;
   color: #3792cb !important;
-  text-shadow: 10px 5px black;
+  text-shadow: 3px 3px 5px orangered;
   line-height: 72px;
 }
 
@@ -359,6 +361,11 @@ margin: 0 50px 50px 0;
   display: flex;
   flex-direction: row;
   float: right;
+  margin: 0 40px;
+}
+
+.footer-pos {
+  margin-left: 180px;
 }
 
 /* resizes and colorizes the icons in the footer */
@@ -412,12 +419,11 @@ margin: 0 50px 50px 0;
 
 /* changes for hover over name/link in nav bar */
 .name:hover {
-  transform: scale(1.12);
-  opacity: 60%;
+  transform: scale(1.1);
 }
 
 .nav-link:hover {
-  transform: scale(1.12);
+  transform: scale(1.1);
   color: white;
 }
 
@@ -429,7 +435,8 @@ a:hover {
 /* changes the icon/links in footer */
 .footer-item:hover {
   transform: scale(1.1);
-  opacity: 80%;
+  color: orangered;
+
 }
 
 .about-img:active {
@@ -448,6 +455,14 @@ a:hover {
 
   .bimg {
     font-size: 24px;
+  }
+
+  .footer-item {
+    margin: 0 3px 0 3px;
+  }
+
+  .footer-pos {
+    margin-left: 40px;
   }
 
   .git-title {

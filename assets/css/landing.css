@@ -91,6 +91,10 @@ footer {
   margin-top: 80px;
 }
 
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+}
+
 
 /* classes */
 

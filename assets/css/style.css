@@ -92,6 +92,12 @@ footer {
 /* classes */
 
 /* changes color of navbar */
+
+.neon-orange {
+  color: #fff;
+  text-shadow: 1px 1px 5px orangered;
+}
+
 .navbar {
   background-color: #221f1f !important;
   padding: 20px 0;

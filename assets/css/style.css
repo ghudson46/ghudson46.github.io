@@ -445,11 +445,11 @@ a:hover {
 
 }
 
-.about-img:active {
+/* .about-img:active {
   transform: scale(1.25);
   margin-right: 20px;
   margin-top: 10px;
-}
+} */
 
 .resumeBtn:hover {
   transform: scale(1.05);
@@ -482,12 +482,22 @@ a:hover {
 
   .about-img { 
    position: relative;
-   left: 50px;
+   left: 60px;
    
+  }
+
+  .about-spacing {
+    position: relative;
+    left: 30px;
   }
 
   .col-md-6 {
     margin-top: 10px;
+  }
+
+  .port-header {
+    position: relative;
+    left: -20px;
   }
   
   article {

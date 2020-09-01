@@ -329,6 +329,13 @@ img{
   width: 333px;
   transform: scale(1.2);
 }
+
+.port-img {
+  position: relative;
+  top: 0;
+  left: 15px;
+}
+
 .work__img img:hover{
   transform: scale(1.25);
 }

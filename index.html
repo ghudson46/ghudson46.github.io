@@ -11,7 +11,7 @@
 
         <!-- ====FONT AWESOME===== -->
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         <title>Garrett Hudson</title>
     </head>
     <body>
@@ -163,7 +163,17 @@
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxs-data skills__icon'></i>
-                                <span class="skills__name">SQL</span>
+                                <span class="skills__name">MySQL</span>
+                            </div>
+                          <div>              
+                              <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                          </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-data skills__icon'></i>
+                                <span class="skills__name">MongoDB</span>
                             </div>
                           <div>              
                               <img src="assets/img/work3.jpg" alt="" class="skills__img">
@@ -239,12 +249,20 @@
                     <br>
                     <a class="work-link-flix" href="https://github.com/ghudson46/note-taker" target="blank">Github Repo</a>
                 </div>
+
                 <div class="work__img">
-                    <a href="https://dev.d2d4b6v4z1i3hw.amplifyapp.com/"><img class ="port-img" src="img/todo.png" alt=""></a>
+                    <a href="https://5f736abb569288013d880c7e--mystifying-goodall-f6396b.netlify.app/"><img class ="port-img" src="img/chat.png" alt=""></a>
                     <br>
-                    <a class="work-link-flix" href="https://github.com/ghudson46/React-App-Amplifyr" target="blank">Github Repo</a>
+                    <a class="work-link-flix" href="https://github.com/ghudson46/in-touch" target="blank">Github Repo</a>
                 </div>
+
+               
+                <div class="work__img">
+                    <a href="https://project-2-team-2.herokuapp.com/"><img class ="port-img" src="img/bookmarked.png" alt=""></a>
+                    <br>
+                    <a class="work-link-flix" href="https://github.com/jhf1203/Project-2" target="blank">Github Repo</a>
                 </div>
+         
             </section>
 
             <!--===== CONTACT =====-->
@@ -253,10 +271,10 @@
 
                 <div class="contact__container bd-grid">
                     <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                        <input type="text" placeholder="Name" class="nameValue contact__input">
+                        <input type="mail" placeholder="Email" class="emailValue contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="textVakye contact__input"></textarea>
+                        <input type="reset" value="Send" class="contact__button button" id="send_button" onclick="clear()">
                     </form>
                 </div>
             </section>
@@ -279,5 +297,7 @@
 
         <!--===== MAIN JS =====-->
         <script src="main.js"></script>
+        <!--==== CONTACT FORM JS ====-->
+        <script src="/contact.js"></script>
     </body>
 </html>

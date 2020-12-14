@@ -268,6 +268,9 @@ img{
   padding: 5px 7px;
   border-radius: 5px;
 }
+.skills__text {
+  margin: 30px auto;
+}
 .skills__data{
   display: flex;
   justify-content: space-between;
@@ -288,27 +291,7 @@ img{
   display: flex;
   align-items: center;
 }
-.skills__bar{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: .25rem;
-  border-radius: .5rem;
-  z-index: var(--z-back);
-}
-.skills__html{
-  width: 95%;
-}
-.skills__css{
-  width: 85%;
-}
-.skills__js{
-  width: 65%;
-}
-.skills__ux{
-  width: 85%;
-}
+
 .skills__img{
   border-radius: .5rem;
 }
@@ -498,5 +481,6 @@ img{
   .home__img{
     right: 10%;
   }
+
 
 }

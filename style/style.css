@@ -285,7 +285,7 @@ img{
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: var(--first-color) !important;
 }
 .skills__names{
   display: flex;
